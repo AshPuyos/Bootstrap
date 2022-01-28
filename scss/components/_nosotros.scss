@@ -1,0 +1,24 @@
+/*Seccion Nosotros*/
+.nosotros{
+    margin-top: 1.5em;
+    text-align: center;
+    .titulo{
+        color: black;
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+    h3{
+        text-transform: capitalize;
+    }
+    .subtitulo{
+        color: grey;
+    }
+    .container-mini-descripcion{
+        text-align: center;
+    }
+    .contenedor-mini-descripcion h3{
+        color: black;
+        font-size: 1em;
+    }
+}
+/*Fin Seccion Nosotros*/

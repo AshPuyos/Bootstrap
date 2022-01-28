@@ -1,0 +1,135 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*Header*/
+.header {
+  background-image: url(../src/assets/img/img-tatuaje-principal.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.header .container {
+  height: 70vh;
+}
+.header .row {
+  color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding-top: 4px;
+}
+.header .logo {
+  border-radius: 100%;
+  padding: 0.5em;
+}
+.header .a-menu {
+  padding-right: 3px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+  padding: 0.5em;
+  color: whitesmoke;
+}
+.header .description {
+  height: 25em;
+  align-items: center;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+/*Fin Header*/
+/*Seccion Nuestro Trabajo*/
+.nuestro-trabajo {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.nuestro-trabajo .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.nuestro-trabajo h3 {
+  text-transform: capitalize;
+}
+.nuestro-trabajo p {
+  color: grey;
+}
+
+/*Fin Seccion Nuestro Trabajo*/
+/*Seccion Faq*/
+.faq {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.faq .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.faq h3 {
+  text-transform: capitalize;
+}
+.faq p {
+  color: grey;
+}
+
+/*Fin Seccion Faq*/
+/*Seccion Contacto*/
+.contacto {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.contacto .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.contacto h3 {
+  text-transform: capitalize;
+}
+.contacto p {
+  color: grey;
+}
+
+/*Fin Seccion Contacto*/
+/*Seccion Nosotros*/
+.nosotros {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.nosotros .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.nosotros h3 {
+  text-transform: capitalize;
+}
+.nosotros .subtitulo {
+  color: grey;
+}
+.nosotros .container-mini-descripcion {
+  text-align: center;
+}
+.nosotros .contenedor-mini-descripcion h3 {
+  color: black;
+  font-size: 1em;
+}
+
+/*Fin Seccion Nosotros*/
+/*Seccion Footer*/
+.logo {
+  border-radius: 100%;
+  padding: 0.5em;
+}
+
+/*Fin Seccion Footer*/
+
+/*# sourceMappingURL=style.css.map */
