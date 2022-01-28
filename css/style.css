@@ -41,6 +41,19 @@
   color: whitesmoke;
   text-transform: capitalize;
 }
+.header .fab {
+  display: flex;
+  padding-right: 2rem;
+  font-size: 4rem;
+  justify-content: right;
+  text-decoration: none;
+}
+.header .fab:hover {
+  opacity: 0.7;
+}
+.header .fa-whatsapp {
+  color: whitesmoke;
+}
 
 /*Fin Header*/
 /*Seccion Nuestro Trabajo*/
