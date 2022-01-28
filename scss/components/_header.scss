@@ -10,22 +10,13 @@
         border-radius: 100%;
         padding: 0.5em;
     }
+    
+    /*
 
-    /*.container {
+    .container {
         height: 70vh;
     }
 
-    .row {
-        color: whitesmoke;
-        justify-content: space-between;
-        align-items: center;
-        text-transform: capitalize;
-        padding-top: 4px;
-    }
-    .logo {
-        border-radius: 100%;
-        padding: 0.5em;
-    }
     .a-menu{
         padding-right: 3px;
         text-transform: uppercase;
@@ -37,11 +28,11 @@
             color: whitesmoke;
         } */
     .description{
-        height: 25em;
+        height: 30em;
+        padding: 3em;
         align-items: center;
         color: whitesmoke;
         text-transform: capitalize;
     }
-
 }
 /*Fin Header*/
