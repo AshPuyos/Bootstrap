@@ -12,6 +12,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
   /*
 
   .container {
@@ -46,6 +47,7 @@
 .nuestro-trabajo {
   margin-top: 1.5em;
   text-align: center;
+  overflow-x: hidden;
 }
 .nuestro-trabajo .titulo {
   color: black;
