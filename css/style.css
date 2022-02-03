@@ -32,6 +32,9 @@ body {
 .header .nav-link:hover {
   opacity: 0.7;
 }
+.header h1 {
+  font-size: 3rem;
+}
 .header .description {
   height: 30em;
   padding: 5em;
@@ -40,7 +43,7 @@ body {
 }
 .header p {
   color: whitesmoke;
-  font-weight: lighter;
+  font-size: 1rem;
 }
 .header .fab {
   display: flex;
