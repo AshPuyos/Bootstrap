@@ -6,6 +6,12 @@
 }
 
 /**/
+.nosotros .titulo, .contacto .titulo, .faq .titulo, .nuestro-trabajo .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 /*Header*/
 /**/
 .header {
@@ -45,15 +51,16 @@
 
 /*Fin Header*/
 /*Seccion Nuestro Trabajo*/
+.nosotros .titulo, .contacto .titulo, .faq .titulo, .nuestro-trabajo .titulo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 .nuestro-trabajo {
   margin-top: 1.5em;
   text-align: center;
   overflow-x: hidden;
-}
-.nuestro-trabajo .titulo {
-  color: black;
-  text-transform: uppercase;
-  font-size: 1em;
 }
 .nuestro-trabajo h3 {
   text-transform: capitalize;
@@ -64,14 +71,15 @@
 
 /*Fin Seccion Nuestro Trabajo*/
 /*Seccion Faq*/
-.faq {
-  margin-top: 1.5em;
-  text-align: center;
-}
-.faq .titulo {
+.nosotros .titulo, .contacto .titulo, .faq .titulo, .nuestro-trabajo .titulo {
   color: black;
   text-transform: uppercase;
   font-size: 1em;
+}
+
+.faq {
+  margin-top: 1.5em;
+  text-align: center;
 }
 .faq h3 {
   text-transform: capitalize;
@@ -82,14 +90,15 @@
 
 /*Fin Seccion Faq*/
 /*Seccion Contacto*/
-.contacto {
-  margin-top: 1.5em;
-  text-align: center;
-}
-.contacto .titulo {
+.nosotros .titulo, .contacto .titulo, .nuestro-trabajo .titulo, .faq .titulo {
   color: black;
   text-transform: uppercase;
   font-size: 1em;
+}
+
+.contacto {
+  margin-top: 1.5em;
+  text-align: center;
 }
 .contacto h3 {
   text-transform: capitalize;
@@ -100,14 +109,15 @@
 
 /*Fin Seccion Contacto*/
 /*Seccion Nosotros*/
-.nosotros {
-  margin-top: 1.5em;
-  text-align: center;
-}
-.nosotros .titulo {
+.nosotros .titulo, .nuestro-trabajo .titulo, .faq .titulo, .contacto .titulo {
   color: black;
   text-transform: uppercase;
   font-size: 1em;
+}
+
+.nosotros {
+  margin-top: 1.5em;
+  text-align: center;
 }
 .nosotros h3 {
   text-transform: capitalize;
