@@ -1,6 +1,8 @@
-/*Seccion Footer*/
+/*Footer*/
+@import '../base/mapas';
+
 .logo {
-    border-radius: 100%;
-    padding: 0.5em;
+    border-radius: map-get($logo, border-radius);
 }
-/*Fin Seccion Footer*/
+
+/*Fin Footer*/
