@@ -1,18 +1,24 @@
 /*Seccion Contacto*/
 @import '../base/extends';
+@import '../base/mixins';
 
 .contacto{
+    @include structure(1.5em, center);
+}
+
+    /*
     margin-top: 1.5em;
     text-align: center;
+*/
     .titulo{
         @extend %titulo;
     }
+
     h3{
         text-transform: capitalize;
     }
     p{
         color: grey;
     }
-}
 
 /*Fin Seccion Contacto*/

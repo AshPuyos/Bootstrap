@@ -1,9 +1,9 @@
 /*Seccion Nosotros*/
 @import '../base/extends';
+@import '../base/mixins';
 
 .nosotros{
-    margin-top: 1.5em;
-    text-align: center;
+    @include structure(1.5em, center);
     .titulo{
         @extend %titulo;
     }
@@ -13,6 +13,10 @@
     .subtitulo{
         color: grey;
     }
+    .description {
+        color: black;
+    }
+
     .container-mini-descripcion{
         text-align: center;
     }

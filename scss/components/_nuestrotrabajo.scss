@@ -1,9 +1,9 @@
 /*Seccion Nuestro Trabajo*/
 @import '../base/extends';
+@import '../base/mixins';
 
 .nuestro-trabajo{
-    margin-top: 1.5em;
-    text-align: center;
+    @include structure(1.8em, center);
     overflow-x: hidden;
 
     .titulo{

@@ -1,0 +1,4 @@
+@mixin structure($margin-top, $text-align) {
+    margin-top: $margin-top;
+    text-align: $text-align;
+}

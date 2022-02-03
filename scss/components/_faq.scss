@@ -1,9 +1,10 @@
 /*Seccion Faq*/
 @import '../base/extends';
+@import '../base/mixins';
 
 .faq{
-    margin-top: 1.5em;
-    text-align: center;
+    @include structure(1.5em, center);
+    
     .titulo{
         @extend %titulo;
     }
