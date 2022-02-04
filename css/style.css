@@ -37,7 +37,7 @@ body {
 }
 .header .description {
   height: 30em;
-  padding: 5em;
+  padding: 5.5em;
   align-items: center;
   color: whitesmoke;
 }
@@ -93,7 +93,8 @@ body {
   text-align: center;
 }
 .faq h3 {
-  text-transform: capitalize;
+  text-transform: none;
+  font-size: 1.5em;
 }
 .faq p {
   color: grey;
@@ -117,7 +118,8 @@ body {
     text-align: center;
 */
 h3 {
-  text-transform: capitalize;
+  text-transform: none;
+  font-size: 1.5em;
 }
 
 p {
@@ -137,7 +139,8 @@ p {
   text-align: center;
 }
 .nosotros h3 {
-  text-transform: capitalize;
+  text-transform: none;
+  font-size: 1.5em;
 }
 .nosotros .subtitulo {
   color: grey;
