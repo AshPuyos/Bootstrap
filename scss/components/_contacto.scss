@@ -4,16 +4,10 @@
 
 .contacto{
     @include structure(1.5em, center);
-}
 
-    /*
-    margin-top: 1.5em;
-    text-align: center;
-*/
     .titulo{
         @extend %titulo;
     }
-
     h3{
         text-transform:none;
         font-size: 1.5em;
@@ -21,5 +15,7 @@
     p{
         color: grey;
     }
+
+}
 
 /*Fin Seccion Contacto*/
