@@ -12,7 +12,7 @@
     border-radius: map-get($logo, border-radius);
 }
 
-    .nav-link:hover {
+    .menu-a:hover {
         opacity: 0.7;
     }
 
@@ -32,7 +32,7 @@
         font-size: 1rem;
     }
 
-    .fab {
+    .icono-wa {
         display: flex;
         padding-right: 2rem;
         font-size: 50px;
@@ -40,11 +40,11 @@
         text-decoration: none;
     }
 
-    .fab:hover {
+    .icono-wa:hover {
         opacity: 0.7;
     }
 
-    .fa-whatsapp {
+    .whatsapp {
         color: whitesmoke;
     }
 }

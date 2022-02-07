@@ -29,7 +29,7 @@ body {
 .header .logo {
   border-radius: 100%;
 }
-.header .nav-link:hover {
+.header .menu-a:hover {
   opacity: 0.7;
 }
 .header h1 {
@@ -45,17 +45,17 @@ body {
   color: whitesmoke;
   font-size: 1rem;
 }
-.header .fab {
+.header .icono-wa {
   display: flex;
   padding-right: 2rem;
   font-size: 50px;
   justify-content: right;
   text-decoration: none;
 }
-.header .fab:hover {
+.header .icono-wa:hover {
   opacity: 0.7;
 }
-.header .fa-whatsapp {
+.header .whatsapp {
   color: whitesmoke;
 }
 
