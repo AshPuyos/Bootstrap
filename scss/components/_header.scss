@@ -11,7 +11,7 @@
 
     .logo {
         border-radius: map-get($logo, border-radius);
-        height: 5em;
+        height: 15vh;
     }
 
     .menu-a:hover {
@@ -43,7 +43,7 @@
         right: 8px;
         height: 60px;
         min-width: 60px;
-        max-width: 95vw
+        max-width: 95vw;
     }
 
     .icono-wa:hover {
