@@ -37,9 +37,11 @@ body {
   font-size: 3rem;
 }
 .header .description {
-  height: 15em;
-  padding: 5.5em;
+  display: flex;
+  height: 10vh;
+  padding: 12vh;
   align-items: center;
+  justify-content: flex-start;
   color: whitesmoke;
 }
 .header p {
