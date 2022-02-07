@@ -33,15 +33,12 @@ body {
 .header .menu-a:hover {
   opacity: 0.7;
 }
-.header h1 {
-  font-size: 3rem;
-}
 .header .description {
   display: flex;
   height: 10vh;
-  padding: 12vh;
+  margin: 12vh;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: left;
   color: whitesmoke;
 }
 .header p {
