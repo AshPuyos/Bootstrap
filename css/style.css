@@ -35,10 +35,11 @@ body {
 }
 .header .description {
   display: flex;
-  height: 10vh;
-  margin: 12vh;
+  height: 1em;
+  margin-top: 5em;
+  margin-left: 1.5em;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
   color: whitesmoke;
 }
 .header p {
