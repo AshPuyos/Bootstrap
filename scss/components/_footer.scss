@@ -3,7 +3,10 @@
 
 .logo {
     border-radius: map-get($logo, border-radius);
-    height: 15vh;
+    font-size: 80px;
+    height: 90px;
+    min-width: 90px;
+    max-width: 95vw;
 }
 
 .powered{

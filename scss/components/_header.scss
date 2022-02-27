@@ -10,6 +10,15 @@
     overflow-x: hidden;
 
     /*MEDIA QUERIES*/
+    @media screen and(max-width: 320px){
+        .description{
+            display: flex;
+            justify-content:center;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
     @media screen and (orientation:landscape) and (max-width: 768px){
         .description{
             margin-top: 1px;
@@ -33,7 +42,10 @@
 
     .logo {
         border-radius: map-get($logo, border-radius);
-        height: 15vh;
+        font-size: 80px;
+        height: 90px;
+        min-width: 90px;
+        max-width: 95vw;
     }
 
     .menu-a:hover {
@@ -51,14 +63,17 @@
         align-items: center;
         justify-content:space-between;
         color: whitesmoke;
+        text-shadow: 2px 2px 3px black;
     }
 
     p {
         color: whitesmoke;
         font-size: 1rem;
+        text-shadow: 3px 3px 5px black;
     }
 
-    .icono-wa {position: fixed;
+    .icono-wa {
+        position: fixed;
         z-index: 400;
         right: 20px;
         bottom: 20px;
