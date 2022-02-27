@@ -193,6 +193,11 @@ body {
   height: 15vh;
 }
 
+.powered {
+  text-align: center;
+  font-size: small;
+}
+
 /*Fin Footer*/
 
 /*# sourceMappingURL=style.css.map */
